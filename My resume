@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- main container-->
+    <div class="main-container">
+        <!--Main content section-->
+        <div class="main-content-section">
+            <!--About me section-->
+            <div class="about-me-section">
+
+                <h2 class="about-me-profession">Front-End Developer</h2>
+
+                <h1 class="about-me-name">Marina Zemlianskaya</h1>
+
+                <p class="about-me-discription">I am responsible, proactive, stress-resistant, sociable, honest. My
+                    strengths are good management and leadership skills.
+                    I have a high working capacity, I can work in multitasking mode.
+                </p>
+
+
+            </div>
+
+
+            <!--my projects-->
+            <div class="my-projects">
+
+                <h3>Projects</h3>
+
+                <ol class="my-projects-list">
+                    <li class="projects-item">
+                        <span class="projects-text">
+                            <a href="https://hellenglish.goit.education"
+                                class="my-projects-link">https://hellenglish.goit.education</a>
+                            ..........
+                            <span class="my-projects-bracket">[</span> HTML5, CSS3 <span
+                                class="my-projects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="projects-item">
+                        <span class="projects-text">
+                            <a href="https://cryptohub.goit.global/"
+                                class="my-projects-link">https://cryptohub.goit.global/</a>
+                            ...................
+                            <span class="my-projects-bracket">[</span> JavaScript <span
+                                class="my-projects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="projects-item">
+                        <span class="projects-text">
+                            <a href="https://kidslike.goit.global/"
+                                class="my-projects-link">https://kidslike.goit.global/</a>
+                            .........................
+                            <span class="my-projects-bracket">[</span> React.js, Node.js <span
+                                class="my-projects-bracket">]</span>
+                        </span>
+                    </li>
+                </ol>
+
+            </div>
+
+
+            <!--my work experience-->
+            <div class="my-work-experience">
+                <h3 class="main-content-title">Work Experience</h3>
+
+
+                <!--company 1-->
+
+                <div class="my-work-experiens-company-block">
+                    <h4 class="my-work-experiens-postion">Content manager <span
+                            class="my-work-experiens-company">Freelance</span></h4>
+                    <p class="my-work-experiens-period">September 2018 - up to now <span
+                            class="my-work-experiens-dedider">
+                            |</span> Odessa</p>
+
+                    <ul class="my-work-experiens-duties">
+                        <li class="my-work-experiens-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut
+                            laboreet dolore magna
+                            aliqua.</li>
+                        <li class="my-work-experiens-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li class="my-work-experiens-duty">Risus commodo viverra maecenas.</li>
+                        <li class="my-work-experiens-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod.</li>
+                    </ul>
+
+
+                </div>
+                <!--company 2-->
+                <div class="my-work-experiens-company-block">
+                    <h4 class="my-work-experiens-postion">Head of public relations department <span
+                            class="my-work-experiens-company"> NU"OLA"</span></h4>
+                    <p class="my-work-experiens-period">March 2018 - October 2020 <span
+                            class="my-work-experiens-dedider">|</span> Odessa</p>
+
+                    <ul class="my-work-experiens-duties">
+                        <li class="my-work-experiens-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do eiusmod labore et dolore
+                            magna
+                            aliqua.</li>
+                        <li class="my-work-experiens-duty">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="my-work-experiens-duty">Risus commodo viverra maecenas.</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!--company 3-->
+                <div class="my-work-experiens-company-block">
+                    <h4 class="my-work-experiens-postion">Database operator <span
+                            class="my-work-experiens-company">Blumbit.inc</span></h4>
+                    <p class="my-work-experiens-period">August 2021 - up to now <span class="my-work-experiens-dedider">
+                            | </span>Odessa</p>
+
+                    <ul class="my-work-experiens-duties">
+                        <li class="my-work-experiens-duty">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li class="my-work-experiens-duty">Quis ipsum suspendisse ultrices gravida.</li>
+                        <li class="my-work-experiens-duty">Risus commodo viverra maecenas.</li>
+                    </ul>
+
+                </div>
+            </div>
+            <!--Education-->
+            <div class="my-education-block">
+                <h2 class="main-education-title">Education</h2>
+                <h3><span class="education-univeresity-title">International Humanitarian University</span></h3>
+                <h4 class="my-education-proffesion">Сomputer engineering</h4>
+                <p class="my-education-period">September 2018 - June 2020 <span class="my-education-dedider"> | </span>
+                    Odessa</p>
+
+            </div>
+
+        </div>
+
+
+        <!--Sidebar section-->
+        <aside class="side-bar-section">
+            <img class="img" src="img/M.Zem.jpg" alt="my photo" width="390" height="59
+            20">
+
+            <!--Contacts section-->
+            <div class="contacts-section">
+                <h3 class="sidebar-title">Contacts</h3>
+
+                <div>
+                    <span class="contacts-section-type">C:</span>
+                    <a class="contacts-section-link" href="tel:+3 063 765 75 06">+3 063 765 75 06</a>
+                </div>
+
+                <div>
+                    <span class="contacts-section-type">E:</span>
+                    <a class="contacts-section-link" href="mailto:zemaruv@gmail.com">zemaruv@gmail.com</a>
+                </div>
+            </div>
+
+            <!--tech skill section-->
+            <div class="tech-skills-section">
+                <H3 class="sidebar-title">Tech Skills</H3>
+
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span> </li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">GIT</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">WebPack</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">JavaScript</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-item-text">React.js</span></li>
+                    <li class="tech-skills-item>Node.js"><span class="tech-skills-item-text">Node.js</span></li>
+
+                </ul>
+
+
+            </div>
+            <!-- soft skills section-->
+
+            <div class="soft-skills-section">
+                <H3 class="soft-skills-title">Soft Skills</H3>
+
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"> <span class="soft-skills-item-text">Scrum</span> </li>
+                    <li class="soft-skills-item"><span class="soft-skills-item-text">Agile</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-item-text">GTD</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-item-text">Teamwork</span></li>
+
+                </ul>
+
+
+            </div>
+
+        </aside>
+    </div>
+
+
+</body>
+
+</html>
